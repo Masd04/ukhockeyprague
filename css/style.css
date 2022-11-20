@@ -1,0 +1,236 @@
+body {
+   background-color:  rgba(238, 232, 232, 0.795);
+
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: xxx-large;
+    width: 99%;
+    margin: auto;
+    padding: 0.5%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: red;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: xx-large;
+}
+
+h3 {
+    text-align: center;
+    font-family: Garamond, serif;
+    font-size: x-large;
+
+}
+
+p {
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    
+}
+
+/* centrování obrázku */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* centrování obrázku */
+
+/* navigátor */
+nav {
+    
+    width: 794px;
+    margin:0 auto;
+    list-style:none;
+    }
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    top: auto;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb; 
+    }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: red;
+  }
+
+  .selected {
+    background-color: red;
+  }
+  /* navigátor */
+
+  .pozadi {
+    background-color: aliceblue;
+    background: linear-gradient(rgba(238, 232, 232, 0.795), rgba(238, 232, 232, 0.795)), url("../img/logo_red.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+    /* fotogalerie */
+  .image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+  .image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+  .image-grid-col-2 {
+	grid-column: span 2;
+}
+
+  .image-grid-row-2 {
+	grid-row: span 2;
+}
+    /* fotogalerie */
+
+    /* odkazy */
+   .link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-style: Garamond, serif;
+    font-size: large;
+   }
+
+   .link2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: x-large;
+    font-style: bold;
+    color: red;
+    margin: 2% 1%;
+    
+   }
+    /* odkazy */
+
+    /* tabulka */
+.tg {
+    border-collapse:collapse;border-spacing:0;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+
+.tg td {
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;
+    }
+
+.tg th {
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+    }
+
+.tg .tg-ju0t {
+    background-color:#E9ECEF;color:#212529;font-weight:bold;text-align:left;vertical-align:middle
+}
+
+.tg .tg-8vzr {
+    background-color:#FFF;color:#212529;text-align:left;vertical-align:middle
+}
+
+.tg .tg-wogo { 
+    background-color:#FFF;color:#0563C1;text-align:left;text-decoration:underline;vertical-align:top
+}
+
+
+.real {
+    border-collapse:collapse;border-spacing:0;
+    text-align: center;
+    max-width: 247px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.real td {
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;
+    }
+
+.real th {
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+    }
+
+.real .tg-ju0t {
+    background-color:#E9ECEF;color:#212529;font-weight:bold;text-align:left;vertical-align:middle
+}
+
+.real .tg-8vzr {
+    background-color:#FFF;color:#212529;text-align:left;vertical-align:middle
+}
+
+.real .tg-wogo { 
+    background-color:#FFF;color:#0563C1;text-align:left;text-decoration:underline;vertical-align:top
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+    /* tabulka */
+
+    #col {
+        column-count: 3;
+        position: relative;
+      }
+    
+      .sloupce {
+        margin: 0 auto;
+    }
+
+.footer {
+    position: relative;
+    display: block;
+    top: 120px;
+}
+
